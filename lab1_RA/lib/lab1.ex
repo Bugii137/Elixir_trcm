@@ -3,15 +3,7 @@ defmodule Lab1 do
   Documentation for `Lab1`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Lab1.hello()
-      :world
-
-  """
+ 
   def get_reviews do
     [
 %{id: 1, user: "Alice", rating: 5, comment: "Amazing service!", date: ~D[2025-01-15]
